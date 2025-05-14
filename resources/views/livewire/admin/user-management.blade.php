@@ -243,7 +243,7 @@
     {{-- Modal Overlay --}}
     @if($showModal)
     <div class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-5000">
-        <div class="bg-white rounded-lg shadow-xl w-full max-w-4xl h-100 overflow-auto p-3" x-data="{ tab: 'basic' }">
+        <div class="absolute bg-white rounded-lg shadow-xl w-full max-w-4xl top-5 bottom-5 overflow-auto scrollbar-none p-3" x-data="{ tab: 'basic' }">
             <div class="flex justify-between items-center mb-6">
                 <h2 class="text-2xl font-semibold text-gray-800">User Registration</h2>
                 <button wire:click="$set('showModal', false)" class="text-gray-500 hover:text-gray-700">

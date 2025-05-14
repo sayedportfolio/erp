@@ -17,12 +17,7 @@ class DatabaseSeeder extends Seeder
             CompanyDetailsSeeder::class,
             RoleSeeder::class,
             AdminSeeder::class,
+            RegularProjectSeeder::class,
         ]);
-        // User::factory(10)->create();
-
-        // User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
     }
 }

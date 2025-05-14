@@ -30,6 +30,7 @@ return new class extends Migration
             $table->decimal('cost', 12, 2)->default(0.00);
             $table->decimal('paid', 12, 2)->default(0.00);
             $table->decimal('due', 12, 2)->default(0.00);
+            $table->enum('status', ['active', 'inactive', 'completed', 'rejected'])->default('inactive');
             $table->timestamps();
         });
     }

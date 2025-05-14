@@ -14,12 +14,13 @@ return new class extends Migration
         Schema::create('project_intregations', function (Blueprint $table) {
             $table->id();
             $table->foreignId('project_id')->constrained('projects')->onDelete('cascade');
-            $table->string('url');
-            $table->string('username');
-            $table->string('password');
-            $table->string('key');
-            $table->string('index');
-            $table->string('token');
+            $table->string('name');
+            $table->string('inte_url')->nullable();
+            $table->string('inte_username')->nullable();
+            $table->string('inte_password')->nullable();
+            $table->string('inte_key')->nullable();
+            $table->string('inte_index')->nullable();
+            $table->string('inte_token')->nullable();
             $table->timestamps();
         });
     }

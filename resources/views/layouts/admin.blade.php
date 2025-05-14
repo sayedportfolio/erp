@@ -31,7 +31,7 @@
             </button>
 
             <!-- Brand Name -->
-            <a class="navbar-brand fw-bold d-none d-md-block me-auto" href="/">ClusterWeb</a>
+            <a class="navbar-brand fw-bold d-none d-md-block me-auto" href="/">ERP</a>
 
             <!-- Rounded Pill Search Input -->
             <div class="input-group nav-search-bar me-3 w-25">

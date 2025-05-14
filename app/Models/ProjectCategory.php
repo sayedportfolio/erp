@@ -10,5 +10,6 @@ class ProjectCategory extends Model
         'name',
         'description',
         'min_cost',
+        'status',
     ];
 }
